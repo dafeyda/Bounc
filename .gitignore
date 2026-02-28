@@ -76,6 +76,10 @@ mono_crash.*
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Node / MCP server
+node_modules/
+npm-debug.log*
+
 # TestRunner generated files
 InitTestScene*.unity*
 
