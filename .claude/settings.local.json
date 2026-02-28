@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(node:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "mcp__mcp-unity__get_scene_info",
+      "mcp__mcp-unity__update_gameobject",
+      "mcp__mcp-unity__update_component",
+      "mcp__mcp-unity__set_transform",
+      "mcp__mcp-unity__create_material",
+      "mcp__mcp-unity__assign_material",
+      "mcp__mcp-unity__scale_gameobject",
+      "mcp__mcp-unity__get_gameobject",
+      "mcp__mcp-unity__execute_menu_item",
+      "mcp__mcp-unity__batch_execute",
+      "mcp__mcp-unity__save_scene",
+      "mcp__mcp-unity__reparent_gameobject",
+      "mcp__mcp-unity__recompile_scripts",
+      "mcp__mcp-unity__get_console_logs",
+      "mcp__mcp-unity__modify_material",
+      "mcp__mcp-unity__get_material_info",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "mcp__mcp-unity__delete_gameobject",
+      "mcp__mcp-unity__select_gameobject",
+      "mcp__mcp-unity__move_gameobject"
+    ]
+  }
+}
