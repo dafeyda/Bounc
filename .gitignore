@@ -10,6 +10,15 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+
+# Unity project is in a subfolder
+[Mm]y [Pp]roject/[Ll]ibrary/
+[Mm]y [Pp]roject/[Tt]emp/
+[Mm]y [Pp]roject/[Oo]bj/
+[Mm]y [Pp]roject/[Bb]uild/
+[Mm]y [Pp]roject/[Bb]uilds/
+[Mm]y [Pp]roject/[Ll]ogs/
+[Mm]y [Pp]roject/[Uu]ser[Ss]ettings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -75,6 +84,10 @@ mono_crash.*
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Node / MCP server
+node_modules/
+npm-debug.log*
 
 # TestRunner generated files
 InitTestScene*.unity*
